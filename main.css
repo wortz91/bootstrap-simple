@@ -1,0 +1,36 @@
+* { 
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.button {
+    background-color: #ddd;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.col-md-max{
+  width: 99%;
+}
+
+@media screen and (max-width:768px){
+  .col-md-max{
+     width:99%;
+   }
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
